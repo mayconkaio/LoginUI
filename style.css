@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url("/img/ChatGPT\ Image\ 1\ de\ out.\ de\ 2026\,\ 14_58_24.png");
+  background: url("/img/ChatGPT\ Image\ 1\ de\ out.\ de\ 2026\,\ 14_58_24.png") center / cover no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -58,7 +58,7 @@ body {
   background-color: white;
   transform: scale(1.05);
   box-shadow: 13px 13px 100px #969696,
-  -1opx -10px 100px #ffffff;
+  -10px 100px #ffffff;
 }
 .input i{
 position: relative;
@@ -76,8 +76,8 @@ button {
   left: 25%;
 }
 button:active {
-  color: #666;
-  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+  color: #ece8e8;
+  box-shadow:  #D6D6E7 0 3px 7px inset;
 }
 .container p {
   position: relative;
@@ -95,8 +95,34 @@ button:active {
     width: 40px;
     height: 40px;
 }
+.container_2 {
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
 
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 
+  padding: 20px 28px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(6px);
+}
 
+.container_2 h2 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.container_2 a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 26px;
+  color: #fff;
+  text-decoration: none;
+}
 
 
